@@ -1,0 +1,56 @@
+body {
+    background-color: aliceblue;
+}
+.btn-color {
+    background-color: rgb(6, 1, 22) !important;
+    color: white !important;
+}
+
+.input-form {
+    outline: none;
+}
+
+.icon-color {
+    color: rgb(6, 1, 22);
+}
+
+.card-size {
+    width: 500px;
+}
+
+form {
+    width: 500px;
+}
+
+textarea {
+    resize: none;
+    height: 6em;
+}
+
+.s-date{
+    width: 240px;
+}
+
+.p-left-0{
+    padding-left: 0 !important;
+}
+
+.font-link {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+@media screen and (max-width: 576px) {
+    .card-size {
+        width: 300px;
+    }
+
+    form {
+        width: 320px;
+        /* background-color: red; */
+    }
+
+    .s-date {
+        width: 150px;
+    }
+}

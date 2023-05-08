@@ -1,0 +1,242 @@
+
+/* contact form */
+form {
+    width: 500px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-date {
+    display: flex;
+    justify-content: space-between;
+}
+.date {
+    width: 45%;
+}
+
+
+
+.form-input {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px; 
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    outline: none;
+    
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+.container-checklist {
+    display: flex;
+    padding-top: 0;
+    margin-bottom: 20px;
+
+}
+input[type=checkbox]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+.card-checklist {
+    display: flex;
+    margin-right: 50px;
+}
+
+.card-checklist input {
+    /* border-radius: 5px;  */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+.card-checklist label {
+    font-size: 15px;
+}
+
+.card-button {
+    text-align: end;
+}
+.button-form {
+    color: white;
+    background-color: rgb(6, 1, 22);
+    padding: 10px 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container-title-project {
+    display: flex;
+    justify-content: center;
+    background-color:   white;
+}
+
+.container-title-project p {
+    font-weight: 900;
+}
+
+
+.container-result {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:   white;
+}
+
+.card-project {
+    width: 500px;
+    background-color: white;
+    margin: 20px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+
+}
+
+.card-project img {
+    display: block;
+    width: 90%;
+    margin-top: 5x;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.card-project a {
+    color: black;
+}
+
+.title-project {
+    font-weight: 900;
+    display: block;
+    margin-left: 5%;
+}
+
+.durasi-project {
+    display: block;
+    margin-left: 5%;
+    padding: 0;
+    font-size:  11px;
+    margin-top: -15px;
+    color: dimgray;
+}
+.deskripsi-project {
+    display: block;
+    font-size: 13px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.icon-technology {
+    display: inline-block;
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+    margin-left: 5%;
+
+
+}
+.icon-technology img{
+    width: 25px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+/* button */
+
+.button-action {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.button-action button {
+    width: 45%;
+    height: 30px;
+    border: none;
+    background-color: rgb(6, 1, 22);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) { 
+
+    .nav-right {
+        padding-bottom: 20px;
+        margin: auto;
+    }
+
+    form {
+        width: 80%;
+        margin: auto;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    .card-button {
+        text-align: end;
+    }
+
+    .form-input {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .date input {
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    .container-result {
+        align-items: normal;
+        justify-content: space-evenly;
+        
+
+    }
+    
+    .card-project {
+        width: 40%;
+        /* background-color: red; */
+        margin: 20 px 0 20px 50px;
+    }
+    .title-project {
+        font-size: 12px;
+    }
+    .durasi-project {
+        font-size: 10px;
+    }
+    .deskripsi-project {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container-result{
+        padding-bottom: 50px;
+    }
+    .card-project {
+        width: 155px;
+    }
+}

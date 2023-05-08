@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(234, 238, 245);
+    font-family: sans-serif;
+}
+
+/* navbar */
+nav {
+    background-color: #fffcfc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img {
+    width: auto;
+    height: 25px;
+    margin-right: 25px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-left ul li {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.nav-right {
+    text-align: end;
+
+}
+
+.nav-right a {
+    background-color: rgb(6, 1, 22);
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.title {
+    /* background-color: aqua; */
+    width: 230px;
+    margin: auto;
+    
+}
+.title p {
+    font-size: 25px;
+    font-weight: 900;
+       
+}
+
+/* contact form */
+form {
+    width: 500px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-date {
+    display: flex;
+    justify-content: space-between;
+}
+.date {
+    width: 45%;
+}
+
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px; 
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    outline: none;
+    box-sizing: border-box;
+    
+}
+.card-subject{
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+.container-checklist {
+    display: flex;
+    background-color: red;
+
+}
+
+.card-checklist {
+    display: flex;
+    background-color: aqua;
+}
+
+.card-checklist input {
+    margin: 0;
+    padding: 0;
+}
+
+.button-form {
+    color: white;
+    background-color: rgb(6, 1, 22);
+    padding: 10px 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        /* background-color: red; */
+        width: 250px;
+        padding-left: 0;
+    }
+    .button-form {
+        margin-left: 25%;
+    }
+}

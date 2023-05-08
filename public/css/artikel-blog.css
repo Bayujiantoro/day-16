@@ -1,0 +1,79 @@
+.title-artikel {
+    margin-top: 50px;
+}
+.title-artikel h1 {
+    text-align: center;
+}
+ .container-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img-artikel img {
+    width: 500px;
+}
+
+
+.time {
+    margin-left: 50px;
+    
+}
+
+.durasi-project p {
+    display: inline-block;
+}
+.durasi-project h3 {
+    display: block;
+    margin: 0;
+}
+.tehnologi {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.tehnologi h3 {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+.next-js , .react-js , .node-js , .typescript {
+
+    width: 40%;
+    display: flex;
+    margin: 13px 0;
+}
+.tehnologi img {
+    width: 30%;
+}
+.tehnologi p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.artikel {
+
+    width: 80%;
+    margin: 50px auto;
+}
+
+@media screen and (max-width: 500px) { 
+
+
+    .container-2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-artikel img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .time {
+        margin: 20px auto;
+        padding-left: 30px;
+    }
+}

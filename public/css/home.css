@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+}
+
+.container {
+    background-color: white; 
+    width: 90%; 
+    margin: auto; 
+    border-radius: 7px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);    
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    padding-bottom: 30px; 
+    padding-top: 30px; 
+    display: flex;
+    align-items: center;
+}
+
+.card-content {
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+.judul-deskription {
+    font-weight: 900; 
+    font-family: sans-serif; 
+    font-size: 40px;
+}
+
+.deskription {
+    font-size: 23px;
+}
+
+.card-contact {
+    display: flex; 
+    margin: 50px;
+}
+.card-contact button {
+    width: 200px; 
+    height: 40px; 
+    color: white; 
+    background-color: rgb(6, 1, 22); 
+    border: none; 
+    border-radius: 15px; 
+    cursor: pointer;
+}
+
+.card-download i {
+    width: 100px;
+    color: rgb(6, 1, 22); 
+    margin-top: 20px; 
+    margin-left: 20px; 
+}
+
+.card-download {
+    display: flex;
+}
+
+.download {
+    font-size: 23px; 
+    color: rgb(6, 1, 22); 
+    display: inline-block; 
+    margin: 10px; 
+    margin-left: 20px;
+}
+
+.card-sosmed {
+    display: flex; margin: 50px;
+}
+
+.card-sosmed i {
+    margin-right: 20px; 
+    color: rgb(6, 1, 22);
+}
+
+.card-img {
+    margin: 50px;
+    /* background-color: red; */
+}
+
+.card-img img {
+    width: 500px; 
+    display: block; 
+    border-radius: 7px 7px 0 0; 
+    box-shadow:0 0 8px rgba(0, 0, 0, 0.5);
+    /* margin-top: 50px; */
+}
+
+.card-img .card-nama {
+    width: 500px; 
+    box-sizing: border-box; 
+    margin: auto;  
+    padding: 8px; 
+    border-radius: 0 0 7px 7px; 
+    box-shadow:0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-img .nama{
+    display: flex; 
+    justify-content: center; 
+    margin: 0; 
+    font-weight: 900; 
+    font-size: 30px;
+}
+
+.card-img .profesi {
+    font-size: 20px; display: flex; justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 1146px) {
+    .container {
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    .card-contact {
+        
+        justify-content: center;
+    }
+
+    .card-sosmed {
+        justify-content: center;
+    }
+
+  
+    .judul-deskription { 
+        font-size: 1.8em;
+    }
+    .deskription {
+        font-size: 1em;
+    }
+    
+   
+  }
+
+@media screen and (max-width: 588px) {
+    .card-content {
+        margin: 0 auto;
+        width: 280px;
+        /* background-color: red; */
+     
+    }
+
+    .judul-deskription { 
+        font-size: 1.2em;
+    }
+
+    .deskription {
+        font-size: 0.8em;
+    }
+
+    .card-contact {
+        margin-right: 10px;
+    }
+    
+    .card-contact button {
+        width: 100px;
+        height: 30px;
+    }
+
+    .download {
+        font-size: 0.8em;
+        width: 95px;
+    }
+
+    .card-download i {
+        color: rgb(6, 1, 22); 
+        margin: 0;
+        margin-top: 12px;
+        font-size: 20px;
+        margin-right: 0;
+    }
+
+    .card-sosmed i {
+        font-size: 40px;
+    }
+
+    .card-img {
+        /* background-color: red; */
+        margin-top: 0;
+    }
+
+    .card-img img {
+        width: 250px;
+    }
+
+    .card-img .card-nama {
+        width: 250px;
+        /* padding: 5px; */
+    }
+    .card-nama .nama {
+        font-size: 15px;
+    }
+
+    .card-nama .profesi {
+        font-size: 13px;
+        margin-top: 3px;
+        
+    }
+}
